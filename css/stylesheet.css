@@ -1,0 +1,72 @@
+body{
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(6, 116, 167);
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+.container h1{
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+    padding: 16px;
+
+}
+.container ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.container li{
+    line-height: 2;
+    font-size: 20px;
+}
+
+.container input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+/* [x]のマーク */
+.cmd{
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(248, 144, 9);
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.container input[type="text"]{
+    padding: 2px;
+    margin-right: 5px;
+}
+
+h1 > span {
+    color: #ccc;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+h1 > button{
+    float: right;
+    margin-top: 10px;
+}
+.done {
+    text-decoration: line-through;
+    color: #cccccc;
+}
+
+.form{
+    text-align: center;
+}
+
+.ntd {
+    color: rgb(235, 158, 57);
+    text-align: center;
+    font-weight: bold;
+    
+}
